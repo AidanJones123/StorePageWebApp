@@ -1,0 +1,936 @@
+[00:00:01.406] Server  LOG      ✓ Ready in 982ms
+[00:02:03.071] Server  LOG      ○ Compiling /games ...
+[00:02:04.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:14.161] Browser LOG     Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+[00:03:46.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:49.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:59.632] Browser LOG     Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+[00:05:29.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:39.617] Browser LOG     Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+[00:07:11.591] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:21.732] Browser LOG     Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+[01:16:27.355] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.372] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.385] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.396] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.409] Server  ERROR    ⨯ ./src/app/admin/new-game/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from "react";
+  6 | import Link from "next/link";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/new-game/page.tsx [Client Component Browser]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/new-game/page.tsx [Client Component SSR]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.421] Server  ERROR    ⨯ ./src/app/admin/new-game/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from "react";
+  6 | import Link from "next/link";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/new-game/page.tsx [Client Component Browser]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/new-game/page.tsx [Client Component SSR]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.433] Server  ERROR    ⨯ ./src/app/admin/new-game/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from "react";
+  6 | import Link from "next/link";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/new-game/page.tsx [Client Component Browser]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/new-game/page.tsx [Client Component SSR]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.445] Server  ERROR    ⨯ ./src/app/admin/new-game/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from "react";
+  6 | import Link from "next/link";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/new-game/page.tsx [Client Component Browser]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/new-game/page.tsx [Client Component SSR]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.459] Server  ERROR    ⨯ ./src/app/games/[id]/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 | import { useParams } from "next/navigation";
+  7 | import Link from "next/link";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/[id]/page.tsx [Client Component Browser]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/[id]/page.tsx [Client Component SSR]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.472] Server  ERROR    ⨯ ./src/app/games/[id]/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 | import { useParams } from "next/navigation";
+  7 | import Link from "next/link";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/[id]/page.tsx [Client Component Browser]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/[id]/page.tsx [Client Component SSR]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.485] Server  ERROR    ⨯ ./src/app/games/[id]/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 | import { useParams } from "next/navigation";
+  7 | import Link from "next/link";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/[id]/page.tsx [Client Component Browser]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/[id]/page.tsx [Client Component SSR]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.498] Server  ERROR    ⨯ ./src/app/games/[id]/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 | import { useParams } from "next/navigation";
+  7 | import Link from "next/link";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/[id]/page.tsx [Client Component Browser]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/[id]/page.tsx [Client Component SSR]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.511] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.523] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.536] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.548] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.563] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.575] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.589] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.602] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.614] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.628] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.642] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.656] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.671] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.682] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.695] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.707] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.719] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.732] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.744] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.756] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.768] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.780] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.792] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.804] Server  ERROR    ⨯ ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:27.807] Server  LOG      ✓ Compiled in 369ms
+[01:16:28.033] Browser ERROR   ./src/app/games/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 |
+  7 | // Define types for your data
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/page.tsx [Client Component Browser]
+    ./src/app/games/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/page.tsx [Client Component SSR]
+    ./src/app/games/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:28.033] Browser ERROR   ./src/app/admin/new-game/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from "react";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/new-game/page.tsx [Client Component Browser]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/new-game/page.tsx [Client Component SSR]
+    ./src/app/admin/new-game/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:28.033] Browser ERROR   ./src/app/games/[id]/page.tsx:4:1
+Module not found: Can't resolve '@/lib/apollo-client'
+  2 |
+  3 | import { gql } from "@apollo/client";
+> 4 | import { client } from "@/lib/apollo-client";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useEffect, useState } from "react";
+  6 | import { useParams } from "next/navigation";
+  7 | import Link from "next/link";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/games/[id]/page.tsx [Client Component Browser]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/games/[id]/page.tsx [Client Component SSR]
+    ./src/app/games/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
