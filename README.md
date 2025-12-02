@@ -1,4 +1,4 @@
-#StorePageWebApp — Full-Stack Game Catalog (Next.js + GraphQL + Node.js)
+# StorePageWebApp — Full-Stack Game Catalog (Next.js + GraphQL + Node.js)
 A game catalog web application , built with:
 
 Next.js 14 (App Router)
