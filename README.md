@@ -20,3 +20,43 @@ Admin mutation panel
 
 
 <img width="1849" height="932" alt="image" src="https://github.com/user-attachments/assets/eb6230a6-f401-472b-95c5-623f4cf860dc" />
+
+
+
+## Full GraphQL API
+
+* Schema-first design
+
+* Queries for retrieving games
+
+* Mutations for adding new entries
+
+## Dynamic, Interactive Frontend
+
+* Responsive card layout
+
+* Search & platform filtering
+
+* Detailed game pages
+
+* Client components with React state
+
+* Next.js App Router dynamic routing (/games/[id])
+
+## Admin Panel
+
+* Accessible at /admin/new-game
+
+* Add new games with a GraphQL mutation
+
+* Automatic UI update and confirmation message
+
+## UI
+
+* Polished layout
+
+* Styled navigation bar
+
+* Animated cards
+
+* Clean spacing
